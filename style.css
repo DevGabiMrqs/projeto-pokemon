@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+    height: 100vh;
+    background-color: #dcb081;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.container-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.pokenome {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-ver-mais {
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color:#e3e6eb;
+}
+
+.btn-ver-mais:hover {
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.container-image {
+    background-color: #e4d2bf;
+    border-radius: 50%;
+    margin: auto;
+    width: 350px;
+    height: 350px;
+}
+
+.image-vulpix {
+   width: 325px;
+   position: relative;
+   top: 3%;
+   transform: translatex(9%);
+}
+
+.descricao {
+    padding: 15px;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.container-golpes {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 25px;
+    width: 70%;
+    margin: auto;
+}
+
+.heats {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+
+
+.lista-golpes {
+    width: fit-content;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+li {
+    list-style: none;
+
+}
+
+.btn-adicionar {
+    width: fit-content;
+    border-radius: 8px;
+    padding: 8px;
+    border: none;
+    background-color: #e3e6eb;
+}
+.btn-adicionar:hover {
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.container-habilidade {
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 6px;
+    border: none;
+    background-color: #e3e6eb;
+    margin: 8px;
+}
